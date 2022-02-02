@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Created by Manesh ram || Github - https://github.com/manesh1234 -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InternShip</title>
+    <!-- including css file -->
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+
+<body>
+    <h1>Summit Minds InternShip</h1>
+    <ul>
+        <li id="select_block">
+            <select name="opt" id="opt" onchange="toChange()">
+                <option value="none" selected disabled hidden>Select an Option</option>
+                <option value="byName">Nobel Prize Winner By Name</option>
+                <option value="byYear">Find out Nobel prize winner in a year by input</option>
+                <option value="byYearNCat">Search Prize winner based on the year and category </option>
+                <option value="inAlpha">Show a list of all Winners in Alphabetical order </option>
+            </select>
+        </li>
+        <li class="q1_block" id="noDis">
+            <label>Enter Name : </label>
+            <input type="text" id="fname" placeholder="enter name" onkeypress="return checkAlphaValidation(event)">
+            <br>
+            <button class="b1" onclick="q_1()">SEARCH🔍</button>
+        </li>
+        <li class="q2_block" id="noDis">
+            <label>Enter Year : </label>
+            <input type="text" id="yname" placeholder="enter year" onkeypress="return checkNumValidation(event)"
+                maxlength="4">
+            <button class="b2" onclick="q_2()">SEARCH🔍</button>
+        </li>
+        <li class="q3_block" id="noDis">
+            <label>Enter Year : </label>
+            <input type="text" id="yname_1" placeholder="enter year" onkeypress="return checkNumValidation(event)"
+                maxlength="4">
+            <br>
+            <label>Enter Category : </label>
+            <input type="text" id="cat" placeholder="enter category" onkeypress="return checkAlphaValidation(event)">
+            <br>
+            <button class="b3" onclick="q_3()">SEARCH🔍</button>
+        </li>
+        <li class="q4_block" id="noDis">
+            <button class="b4" onclick="q_4()">SEARCH AND GET RESULTS🔍</button>
+        </li>
+
+
+        <li class="errBlock" id="noDis">
+            <img class="I_1" src="assets/images/IMG_1.jpg">
+            <img class="I_1" src="assets/images/IMG_2.jpg">
+        </li>
+        <li>
+            <table class="tab_1" id="noDis">
+                <thead>
+                    <td>S.no</td>
+                    <td>Name</td>
+                    <td>year</td>
+                    <td>category</td>
+                </thead>
+            </table>
+        </li>
+        <li>
+            <table class="tab_2" id="noDis">
+                <thead>
+                    <td>S.no</td>
+                    <td>Name</td>
+                    <td>year</td>
+                    <td>category</td>
+                </thead>
+            </table>
+        </li>
+        <li>
+            <table class="tab_3" id="noDis">
+                <thead>
+                    <td>S.no</td>
+                    <td>Name</td>
+                    <td>year</td>
+                    <td>category</td>
+                </thead>
+            </table>
+        </li>
+        <li>
+            <table class="tab_4" id="noDis">
+                <thead>
+                    <td>S.no</td>
+                    <td>Name</td>
+                    <td>year</td>
+                    <td>category</td>
+                </thead>
+            </table>
+        </li>
+        <li>
+            <table class="maintab">
+                <thead>
+                    <td>S.no</td>
+                    <td>Name</td>
+                    <td>year</td>
+                    <td>category</td>
+                </thead>
+            </table>
+        </li>
+    </ul>
+
+    <!-- adding javascript file -->
+    <script src="app.js"></script>
+</body>
+
+</html>
