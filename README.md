@@ -1,6 +1,6 @@
 # Summit-Minds-InternShip 🚀
-This is a repository for problem statement given by summit minds for internship selection**
-
+This is a repository for problem statement given by summit minds for internship selection
+### Deployment - [netlify]
 ## SOURCES 📂
 - [Problem Statement] 
 - [JSON data]
@@ -41,3 +41,4 @@ This is a repository for problem statement given by summit minds for internship 
 
 [Problem Statement]: https://docs.google.com/document/d/1Vrc2_cw3AxKVWCWx5OIXftSDwz4FBVPDnBqe9SMcxEU/edit
 [JSON data]: https://drive.google.com/open?id=1udrhAEPkI0F2IFfcHa9qcpDmdoLFGMST
+[netlify]: https://maneshram-summitminds.netlify.app/
